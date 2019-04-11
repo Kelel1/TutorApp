@@ -95,4 +95,6 @@
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_sign_up">SignUp</string>
     <string name="title_activity_test">test</string>
+    <string name="title_activity_add_course">AddCourse</string>
+    <string name="title_activity_remove_course">RemoveCourse</string>
 </resources>
