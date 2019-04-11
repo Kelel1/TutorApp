@@ -14,9 +14,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".GiveFeedback"
+            android:label="@string/title_activity_give_feedback"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".RateTutor"
+            android:label="@string/title_activity_rate_tutor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".RescheduleSession"
             android:label="@string/title_activity_reschedule_session"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".CancelSession"
             android:label="@string/title_activity_cancel_session"

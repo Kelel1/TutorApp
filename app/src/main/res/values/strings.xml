@@ -102,4 +102,6 @@
     <string name="title_activity_confirm_session">ConfirmSession</string>
     <string name="title_activity_cancel_session">CancelSession</string>
     <string name="title_activity_reschedule_session">RescheduleSession</string>
+    <string name="title_activity_rate_tutor">RateTutor</string>
+    <string name="title_activity_give_feedback">GiveFeedback</string>
 </resources>
