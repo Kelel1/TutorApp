@@ -95,4 +95,13 @@
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_sign_up">SignUp</string>
     <string name="title_activity_test">test</string>
+    <string name="title_activity_add_course">AddCourse</string>
+    <string name="title_activity_remove_course">RemoveCourse</string>
+    <string name="title_activity_search_tutors">SearchTutors</string>
+    <string name="title_activity_schedule_session">ScheduleSession</string>
+    <string name="title_activity_confirm_session">ConfirmSession</string>
+    <string name="title_activity_cancel_session">CancelSession</string>
+    <string name="title_activity_reschedule_session">RescheduleSession</string>
+    <string name="title_activity_rate_tutor">RateTutor</string>
+    <string name="title_activity_give_feedback">GiveFeedback</string>
 </resources>
