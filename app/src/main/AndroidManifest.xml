@@ -13,10 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".signUp1"></activity>
         <activity
             android:name=".GiveFeedback"
             android:label="@string/title_activity_give_feedback"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RateTutor"
             android:label="@string/title_activity_rate_tutor"
