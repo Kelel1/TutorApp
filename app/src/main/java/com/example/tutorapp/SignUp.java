@@ -6,8 +6,15 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.EditText;
 
 public class SignUp extends AppCompatActivity {
+
+    EditText firstName = (EditText)findViewById(R.id.firstName);
+    EditText lastNeme  = (EditText)findViewById(R.id.lastName);
+    EditText email     = (EditText)findViewById(R.id.email);
+    EditText phone     = (EditText)findViewById(R.id.number);
+    EditText password  = (EditText)findViewById(R.id.password);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +32,12 @@ public class SignUp extends AppCompatActivity {
             }
         });
     }
+
+    public void signUp(android.view.View a) {
+        return;
+    }
+
+
+
 
 }
