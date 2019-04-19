@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -22,6 +23,12 @@ import java.util.Map;
 public class SignUp extends AppCompatActivity {
 
     private static final String TAG = "SignUpActivity";
+  
+    EditText firstName = (EditText)findViewById(R.id.firstName);
+    EditText lastNeme  = (EditText)findViewById(R.id.lastName);
+    EditText email     = (EditText)findViewById(R.id.email);
+    EditText phone     = (EditText)findViewById(R.id.number);
+    EditText password  = (EditText)findViewById(R.id.password);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +52,11 @@ public class SignUp extends AppCompatActivity {
         });
     }
 
-    private void InsertTestValues(FirebaseFirestore db)
+    public void signUp(android.view.View a) {
+        return;
+    }
+  
+  private void InsertTestValues(FirebaseFirestore db)
     {
         Map<String, Object> user = new HashMap<>();
         user.put("first", "Ada");
@@ -68,5 +79,4 @@ public class SignUp extends AppCompatActivity {
                     }
                 });
     }
-
 }
