@@ -2,6 +2,7 @@
 <resources>
     <color name="colorPrimary">#2196F3</color>
     <color name="colorPrimaryDark">#3F51B5</color>
-    <color name="azur">#f1f5f8</color>
+    <color name="azure">#f1f5f8</color>
     <color name="white">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
 </resources>

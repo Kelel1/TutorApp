@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".signUp1">
     android:orientation="vertical"
-    android:background="@color/azur"
+    android:background="@color/azure"
 
 
     <android.support.v7.widget.CardView
