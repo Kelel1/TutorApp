@@ -59,9 +59,9 @@ public class SignUp extends AppCompatActivity {
   private void InsertTestValues(FirebaseFirestore db)
     {
         Map<String, Object> user = new HashMap<>();
-        user.put("first", "Ada");
-        user.put("last", "Lovelace");
-        user.put("born", 1815);
+        user.put("first", "Ermias");
+        user.put("last", "A");
+        user.put("born", 1985);
 
         // Add a new document with a generated ID
         db.collection("users")

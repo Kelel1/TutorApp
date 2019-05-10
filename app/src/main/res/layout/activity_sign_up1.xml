@@ -28,36 +28,42 @@
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"/>
             <EditText
+                android:id="@+id/firstName"
                 android:hint="First name"
                 android:layout_marginTop="40dp"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"/>
             <EditText
+                android:id="@+id/lastName"
                 android:hint="Last name"
                 android:layout_marginTop="40dp"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"/>
             <EditText
+                android:id="@+id/phoneNumber"
                 android:hint="Phone number"
                 android:layout_marginTop="40dp"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"/>
             <EditText
+                android:id="@+id/email"
                 android:hint="Email"
                 android:layout_marginTop="40dp"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"/>
             <EditText
+                android:id="@+id/password"
                 android:hint="Password"
                 android:layout_marginTop="40dp"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"/>
             <Button
+                android:id="@+id/signUp"
                 android:text="Sign Up"
                 android:textColor="@color/white"
                 android:background="@color/colorPrimary"
